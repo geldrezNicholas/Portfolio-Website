@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Geldrez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/star.gif" type="image/gif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="star-container"></div>
+
+    <section class="hero-container">
+        <div class="profile-img-container">
+            <img src="assets/profile.jpg" alt="Nicholas Geldrez" class="profile-img">
+        </div>
+        <h1 class="hero-name">Nicholas Geldrez</h1>
+        <h2 class="hero-headline">CS Student | Aspiring Software Engineer | ColorStack Member</h2>
+
+        <div class="hero-buttons">
+            <a href="https://github.com/geldrezNicholas" target="_blank" class="hero-btn github-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/nicholas-geldrez-2a7737348" target="_blank"
+                class="hero-btn linkedin-btn">LinkedIn</a>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-container">
+        <h3 class="section-title">01. About Me</h3>
+        <div class="about-content">
+            <p>
+                Hi! I'm a second-year CS student at <strong>Carleton University</strong> who spends way too much time
+                staring at code (and not knowing what to do).
+            </p>
+            <p>
+                I love understanding exactly how things work under the hood.
+                Whether it's managing memory manually in <strong>C/C++</strong> (painful, but rewarding)
+                or experimenting with <strong>AI models</strong> in Python, I enjoy the challenge
+                of building systems that actually <em>do</em> something.
+            </p>
+            <p>
+                Right now, I'm focused on leveling up my backend skills and preparing for my
+                upcoming term at <strong>Nokia</strong>. When I'm not coding, you can usually find
+                me at the gym, reading, or spending time with family.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience" class="section-container">
+        <h3 class="section-title">02. Where I've Worked</h3>
+        <div class="experience-grid">
+
+            <div class="job-card">
+                <div class="job-header">
+                    <h4 class="job-role">Optical Networks Intern</h4>
+                    <span class="job-company">@ Nokia</span>
+                </div>
+                <p class="job-date">Incoming (May 2026 - Aug 2026)</p>
+            </div>
+
+            <div class="job-card">
+                <div class="job-header">
+                    <h4 class="job-role">Market Data Analyst Intern</h4>
+                    <span class="job-company">@ HTG Sports Services</span>
+                </div>
+                <p class="job-date">May 2025 - Aug 2025</p>
+                <ul class="job-list">
+                    <li>Developed automated data scripts to process large-scale datasets, reducing manual reporting
+                        time.</li>
+                    <li>Optimized data validation workflows to ensure high integrity across competitive market reports.
+                    </li>
+                    <li>Collaborated with cross-functional teams to streamline data ingestion pipelines for real-time
+                        analytics.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section-container">
+        <h3 class="section-title">03. Things I've Built</h3>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-top">
+                    <h4 class="project-title">Ghost Hunt Simulator</h4>
+                    <div class="project-links">
+                        <a href="https://github.com/geldrezNicholas/Ghost-Hunt-Simulator" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    A multithreaded simulation engine written in <strong>C</strong>.
+                    It manages concurrent hunters and ghosts using <strong>mutexes</strong> and
+                    <strong>semaphores</strong>
+                    to prevent race conditions and deadlocks.
+                </p>
+                <ul class="project-tech">
+                    <li>C</li>
+                    <li>Multithreading</li>
+                    <li>Systems</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="project-top">
+                    <h4 class="project-title">Duplicate File Finder</h4>
+                    <div class="project-links">
+                        <a href="https://github.com/geldrezNicholas/Duplicate-File-Finder" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    A CLI utility that recursively scans directories to delete duplicates.
+                    Optimized for performance using <strong>hashing</strong> and <strong>linked lists</strong>
+                    to handle file comparisons efficiently.
+                </p>
+                <ul class="project-tech">
+                    <li>C</li>
+                    <li>Data Structures</li>
+                    <li>CLI</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="project-top">
+                    <h4 class="project-title">TL;DR Generator</h4>
+                    <div class="project-links">
+                        <a href="https://github.com/geldrezNicholas/TL-DR-Generator" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    An AI-powered web app that condenses long text into summaries.
+                    Built with <strong>Python</strong>, <strong>PyTorch</strong>, and <strong>Streamlit</strong>
+                    to provide a clean, interactive user interface.
+                </p>
+                <ul class="project-tech">
+                    <li>Python</li>
+                    <li>PyTorch</li>
+                    <li>Streamlit</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="project-top">
+                    <h4 class="project-title">Lung Cancer Detection</h4>
+                    <div class="project-links">
+                        <a href="https://github.com/geldrezNicholas/Lung-Cancer-Classification" target="_blank">GitHub
+                            ↗</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    A medical imaging project using a <strong>Convolutional Neural Network (CNN)</strong>
+                    to detect lung cancer from scans. Includes detailed data analysis and visualization
+                    within a Jupyter Notebook.
+                </p>
+                <ul class="project-tech">
+                    <li>Python</li>
+                    <li>TensorFlow/Keras</li>
+                    <li>CNN</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section-container" style="text-align: center; padding-bottom: 150px;">
+        <h3 class="section-title" style="justify-content: center; margin-bottom: 1rem;">04. What's Next?</h3>
+        <h1 style="font-size: 2.5rem; color: #fff; margin-bottom: 1.5rem;">Get In Touch</h1>
+        <p style="max-width: 500px; margin: 0 auto 3rem auto; color: #a0a0b0; line-height: 1.6;">
+            I'm currently preparing for my term at Nokia, but I'm always open to chatting about
+            backend systems, AI, or gym PRs. Feel free to say hi!
+        </p>
+        <a href="mailto:geldrez.nicholas@gmail.com" class="contact-btn">Say Hello</a>
+
+        <footer style="margin-top: 100px; font-size: 0.8rem; color: #555;">
+            Built by Nicholas Geldrez
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
