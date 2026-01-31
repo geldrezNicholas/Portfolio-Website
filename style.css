@@ -1,33 +1,38 @@
-/* Mobile*/
+/*Phone*/
 @media (max-width: 768px) {
 
     .hero-name {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        line-height: 1.1;
     }
 
     .hero-headline {
         font-size: 0.9rem;
         padding: 0 1rem;
+        margin-top: 1rem;
     }
 
     .navbar {
-        padding: 0.8rem 0;
+        padding: 0.5rem 0;
     }
 
     .nav-links {
-        gap: 1rem;
+        gap: 0.8rem;
+        padding: 0 10px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .nav-links li a {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .section-container {
-        padding: 60px 20px;
+        padding: 60px 15px;
     }
 
     .section-title::after {
-        width: 100px;
+        width: 50px;
     }
 
     .projects-grid,
@@ -43,7 +48,8 @@
 }
 
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -211,7 +217,8 @@ body, html {
     padding: 100px 20px;
     color: #e0e0e0;
     position: relative;
-    z-index: 10; /*makes sure they're above stars for visibility*/
+    z-index: 10;
+    /*makes sure they're above stars for visibility*/
 }
 
 .section-title {
