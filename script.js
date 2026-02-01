@@ -1,25 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
     const starContainer = document.getElementById('star-container');
-    const starGif = 'assets/star.gif';
-    const starCount = 50;
+    const starGif = 'assets/star.gif'; 
+    
+    //if its mobile, set fewer stars
+    const isMobile = window.innerWidth < 768;
+
+    //20 for mobile, 50 for desktop
+    const starCount = isMobile ? 20 : 50;
 
     for (let i = 0; i < starCount; i++) {
         const img = document.createElement('img');
         img.src = starGif;
         img.className = 'star';
         
-        //Random position across the page above 40% height
+        //Randomize position 40% from the top only
         const top = Math.random() * 40 + '%';
         const left = Math.random() * 100 + '%';
         
-        //Randomizing size
+        //Randomize the size between 15px and 35px
         const size = (Math.random() * 20 + 15) + 'px';
         
-        //Random animation speed and delay
+        //Randomize the animation speed
         const duration = (Math.random() * 5 + 3) + 's';
         const delay = (Math.random() * 2) + 's';
 
-        //Applying styles
+        //apply styles
         img.style.top = top;
         img.style.left = left;
         img.style.width = size;
